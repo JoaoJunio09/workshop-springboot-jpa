@@ -1,4 +1,4 @@
-package com.infonet.infonet;
+package com.educandoweb.infonet;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

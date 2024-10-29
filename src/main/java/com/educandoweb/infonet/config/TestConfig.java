@@ -1,4 +1,4 @@
-package com.infonet.infonet.config;
+package com.educandoweb.infonet.config;
 
 import java.util.Arrays;
 
@@ -7,14 +7,14 @@ import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-import com.infonet.infonet.entities.User;
-import com.infonet.infonet.repositories.UserRepository;
+import com.educandoweb.infonet.entities.User;
+import com.educandoweb.infonet.repositories.UserRepository;
 
 @Configuration
 @Profile("test")
 public class TestConfig implements CommandLineRunner {
 	
-	@Autowired
+	@Autowired // => esta realizando a injeção de dependencia.
 	private UserRepository userRepository;
 
 	@Override
