@@ -10,7 +10,7 @@ import jakarta.persistence.Embeddable;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;
 
-@Embeddable // isso porque é uma classe de chave primário composta (auxiliar).
+@Embeddable // isso porque é uma classe de chave primária composta (auxiliar).
 public class OrderItemPK implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
